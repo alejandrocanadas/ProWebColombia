@@ -49,3 +49,26 @@
     flex-direction: column;
   }
 }
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--backgroundSoft);
+  padding: 30px;
+  border-radius: 10px;
+  color: var(--text);
+}
+
+.contactItem {
+  font-size: 18px;
+}
+
+.link {
+  color: var(--btn);
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
