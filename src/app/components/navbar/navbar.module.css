@@ -1,0 +1,52 @@
+.container {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.logoWrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.logoText {
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.flag {
+  position: absolute;
+  bottom: 20px;  /* Ajusta según lo que quieras */
+  right: -20px;   /* Ajusta según lo que quieras */
+  width: 16px;
+  height: auto;
+}
+
+.linksWrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.loginButton {
+  padding: 8px 20px;
+  background-color: white;
+  color: #0d0c22;
+  border: none;
+  border-radius: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.loginButton:hover {
+  background-color: #ddd;
+}
