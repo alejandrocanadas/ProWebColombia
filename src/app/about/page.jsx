@@ -34,8 +34,8 @@ const AboutPage = () => {
         </p>
         <div className={styles.boxes}>
           <div className={styles.box}>
-            <h1>10+</h1>
-            <p>Proyectos En Desarrollo</p>
+            <h1>3</h1>
+            <p>Proyectos desarrollados</p>
           </div>
           <div className={styles.box}>
             <h1>💬</h1>
